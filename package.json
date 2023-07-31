@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "start": "node src/esm/index",
-    "compile": "babel src/babel --out-dir compiled",
+    "compile": "babel src/babel --out-dir dist",
     "dev:ts": "ts-node src/ts/index.ts",
     "esm:ts": "node --loader ts-node/esm src/ts/index.ts",
     "build": "tsc src/ts/index.ts --outDir dist",
@@ -23,6 +23,7 @@
     "@babel/cli": "^7.22.5",
     "@babel/core": "^7.22.5",
     "@babel/preset-env": "^7.22.5",
+    "@types/node": "^20.4.2",
     "ts-node": "^10.9.1",
     "typescript": "^5.1.6"
   }

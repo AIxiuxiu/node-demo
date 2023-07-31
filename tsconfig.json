@@ -3,15 +3,19 @@
     "esModuleInterop": true,
     "module": "ESNext",
     "lib": [
-      "ESNext",
+      "ES2021",
       "dom"
     ],
     "types": [
       "node"
     ],
-    "target": "ES2015"
+    "target": "ES5",
+    "outDir": "dist"
   },
   "exclude": [
     "node_modules"
-  ]
+  ],
+  "include": [
+    "src/ts/*.ts",
+  ],
 }

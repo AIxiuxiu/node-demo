@@ -16,3 +16,12 @@ console.log(greeting)
 // 多个问候语
 const greetings = greet(['张三', '李四', '王五'])
 console.log(greetings)
+
+
+const sleep = (timeout: number = 1000): Promise<void> => {
+  return new Promise(resolve => {
+    setTimeout(() => {
+      resolve();
+    }, timeout);
+  })
+}

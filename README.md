@@ -56,6 +56,8 @@ Node.js （简称 Node ） 是一个基于 Chrome V8 引擎构建的 JS 运行�
 
 目前已经有很多流行的构建工具，例如： [Vite](https://github.com/vitejs/vite)、 [Webpack](https://github.com/webpack/webpack)、[Grunt](https://github.com/gruntjs/grunt) 、 [Gulp](https://github.com/gulpjs/gulp) 、 [Snowpack](https://github.com/FredKSchott/snowpack) 、 [Parcel](https://github.com/parcel-bundler/parcel) 、 [Rollup](https://github.com/rollup/rollup) … 每一个工具都有自己的特色。
 
+[tooling.report](https://bundlers.tooling.report)
+
 基于 Vue 3 的项目，最主流的工程化组合拳有以下两种：
 
 | 常用方案 | Runtime | 构建工具 | 前端框架 |
@@ -111,7 +113,11 @@ Vite 是基于浏览器原生的 ES Module ，所以不需要预先打包，而�
 
 点击访问：[Node.js 官网下载](https://nodejs.org/zh-cn/download/)
 
-建议使用[nvm](https://github.com/nvm-sh/nvm)进行版本管理，因为有些项目只能使用特定的 node 版本运行
+建议使用
+[nvm](https://github.com/nvm-sh/nvm)、
+[n](https://github.com/tj/n)、
+[fnm](https://github.com/Schniz/fnm)
+进行版本管理，因为有些项目只能使用特定的 node 版本运行
 
 ## 初始化一个项目
 
@@ -323,3 +329,5 @@ vue 的风格指南
 - [mitt 全局事件监听](https://github.com/developit/mitt)
 - [Nuxt.js 服务端渲染](https://www.nuxtjs.cn)
 - [Lodash- 实用工具库](https://lodash.com/)
+
+![前端知识点](images/web.png)
